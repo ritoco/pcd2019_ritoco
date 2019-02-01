@@ -30,29 +30,3 @@ void draw() {
 
   angle += 0.1;                                        // 回転角度を足していく（いろいろな値で試してみてください！）
 }
-
-
-/*　画像保存のコード　*/
-
-void keyPressed() {
-
-  // sのキーが入力された時に保存
-    if(key == 's' || key == 'S') {
-
-    
-  // 時間、分、秒を取得　
-    int hour = hour(); 
-    int min = minute();   
-    int sec = second(); 
-
-  // デスクトップのパスと時間取得
-    String path  = System.getProperty("user.home") + "/Desktop/screenshot" + hour +  min + sec + ".png";
-
-  // 保存する
-    save(path);
-
-  // 表示されるログ
-    println("screenshot" + path); 
-    
-  }
-}
