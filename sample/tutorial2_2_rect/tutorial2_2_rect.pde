@@ -1,4 +1,4 @@
-/* 四角を描く */
+/* tutorial2_2_rect_四角を描く */
 
 
 void setup() {                                         //設定

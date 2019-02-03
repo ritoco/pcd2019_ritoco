@@ -9,7 +9,7 @@ void setup() {                                         //設定
 
   background(#FFFFFF);                                 //背景色。この場合は白
 
-  smooth();                                            //アンチエイリアスをON                      
+  smooth();                                            //アンチエイリアスをON。線を滑らかにする。
 
   strokeWeight(1);                                     //線の太さの指定
 
@@ -24,9 +24,9 @@ void draw() {
 
   stroke(#000000);                                     //線の色の指定。黒。
 
-  // rect(0, 0, mouseX, 20);                           // (x軸,y軸,mouseX,高さ）ここでは原点から幅はmouseX座標（px）,高さ20pxの四角を描く
+  // rect(0, 0, mouseX, 20);                           // (x位置,y位置,mouseX,高さ）
 
-  ellipse(0, 0, mouseX, 20);                           // (x軸,y軸,幅,高さ）ここでは原点から中心に幅50px,高さ20pxの円を描く
+  ellipse(0, 0, mouseX, 20);                           // (x位置,y位置,mouseX,高さ）
 
   angle += 0.1;                                        // 回転角度を足していく（いろいろな値で試してみてください！）
 }

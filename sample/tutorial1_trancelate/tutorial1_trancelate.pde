@@ -9,7 +9,7 @@ void setup() {                                         //設定
 
   background(#FFFFFF);                                 //背景色。この場合は白
   
-  smooth();                                            //アンチエイリアスをon
+  smooth();                                            //アンチエイリアスをon。線を滑らかにする。
 
   strokeWeight(1);                                     //線の太さ
   

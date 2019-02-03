@@ -1,4 +1,4 @@
-/* 丸を描く */
+/* tutorial2_1_ellipse_丸を描く */
 
 
 void setup() {                                         //設定
@@ -7,7 +7,7 @@ void setup() {                                         //設定
 
   background(#FFFFFF);                                 //背景色。この場合は白
 
-  smooth();                                            //アンチエイリアスをon。線を滑らかにする
+  smooth();                                            //アンチエイリアスをon。線を滑らかにする。
 
   strokeWeight(1);                                     //線の太さ
 }
