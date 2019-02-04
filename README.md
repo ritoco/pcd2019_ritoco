@@ -3,7 +3,9 @@
 
 # pcd2019_ritoco
 PCD2019_Tokyo_ritoco_WS<br />
-2019年2月2日のProcessing Community Day 2019 東京で行われたritocoのワークショップのスライドとサンプルコードです。
+2019年2月2日のProcessing Community Day 2019 東京で行われたritocoのワークショップのスライドとサンプルコードです。<br />
+上記の画像のようなアートができます。
+<br />
 <br />
 <br />
 # フォルダの説明
